@@ -1,9 +1,8 @@
-// const name= "0";
-let name= 12;
+// let pakhi;
+function add(num1, num2){
+    console.log(num1+num2);
+}
 
-if(name || name ==0){
-    console.log("condition is true");
-}
-else{
-    console.log("condition is false");
-}
+const result = add(13,82);
+
+console.log(result);
